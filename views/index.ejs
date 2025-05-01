@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Expense Tracker</title>
+  <script defer src="/main.js"></script>
+</head>
+<body>
+  <h1>Expense Tracker</h1>
+  <form id="expense-form">
+    <input type="text" name="title" placeholder="Title" required />
+    <input type="number" name="amount" placeholder="Amount" required />
+    <input type="text" name="category" placeholder="Category" required />
+    <input type="date" name="date" required />
+    <input type="text" name="paymentMethod" placeholder="Payment Method" required />
+    <button type="submit">Add Expense</button>
+  </form>
+  
+  <h2>All Expenses</h2>
+  <div id="expenses-list"></div>
+</body>
+</html>
